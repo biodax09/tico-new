@@ -23,6 +23,9 @@ import {
   jobit,
   tripguide,
   threejs,
+  trinksigortam,
+  obilet,
+  cyce,
 } from "../assets";
 
 export const navLinks = [
@@ -42,19 +45,19 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Tasarım",
+    title: "Web Yazılım",
     icon: web,
   },
   {
-    title: "E-Ticaret",
+    title: "Web Tasarım",
     icon: mobile,
   },
   {
-    title: "Mobil Uygulama",
+    title: "Mobil Yazılım",
     icon: backend,
   },
   {
-    title: "Backend Geliştirme",
+    title: "E-Ticaret",
     icon: creator,
   },
 ];
@@ -203,20 +206,20 @@ const projects = [
       "Kötü bal nasıl olur hiç bilmiyoruz çünkü hiç yemedik görmedik. Organik ve kendi üretimleri olan ürünlerin satıldığı güvenli ve online organik bir mağazadır.",
     tags: [
       {
-        name: "react",
+        name: "wordpress",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "mysql",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "bootstrap",
         color: "pink-text-gradient",
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://dogallikburada.com/",
   },
   {
     name: "Gaziantebiz",
@@ -224,7 +227,7 @@ const projects = [
       "Gaziantep’te üretilen tüm ürünlere hızlı ve güvenli ulaşım sağlayan Gaziantebiz.com; alıcının kayıt yaptırarak alışveriş yapma imkanı bulduğu online alışveriş sitesidir.",
     tags: [
       {
-        name: "react",
+        name: "opencart",
         color: "blue-text-gradient",
       },
       {
@@ -232,12 +235,12 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "css",
         color: "pink-text-gradient",
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://gaziantebiz.com",
   },
   {
     name: "LastingUp",
@@ -245,11 +248,11 @@ const projects = [
       "Bir çok ayakkabı markasıyla anlaşmalı olarak hızlı ve güvenli teslimat sağlayan, alışveriş yapma imkanı bulunan online alışveriş sitesidir.",
     tags: [
       {
-        name: "nextjs",
+        name: "fabcommerce",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "laravel",
         color: "green-text-gradient",
       },
       {
@@ -258,7 +261,70 @@ const projects = [
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://lastingup.com/",
+  },
+  {
+    name: "oBilet",
+    description:
+      "Türkiye'deki otobüs firmalarını bir araya getiren bir online otobüs bileti arama portalıdır.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "restapi",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwindcss",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: obilet,
+    source_code_link: "https://obilet.vercel.app/",
+  },
+  {
+    name: "TrinkSigortam",
+    description:
+      "Müşterilerilerinin ihtiyaçlarına en uygun ve kapsamlı sigortaya ulaşmalarını sağlamak üzere 2001 yılında kurulmuştur.",
+    tags: [
+      {
+        name: "wordpress",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mysql",
+        color: "green-text-gradient",
+      },
+      {
+        name: "elementor",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: trinksigortam,
+    source_code_link: "https://trinksigortam.net/",
+  },
+  {
+    name: "CYCE",
+    description:
+      "Dumansız, atıksız, karbon negatif, sessiz ve güçlü, yeni nesil hızlı şarj istasyonu..",
+    tags: [
+      {
+        name: "jquery",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "laravel",
+        color: "green-text-gradient",
+      },
+      {
+        name: "bootstrap",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: cyce,
+    source_code_link: "https://cycecoin.com/",
   },
 ];
 

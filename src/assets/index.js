@@ -26,9 +26,12 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
-import carrent from "./db.jpg";
-import jobit from "./gaziantebiz.jpg";
-import tripguide from "./lasting.jpg";
+import carrent from "./db.png";
+import jobit from "./gaziantebiz.png";
+import tripguide from "./lasting.png";
+import obilet from "./obilet.png";
+import trinksigortam from "./trinksigortam.png"
+import cyce from "./cyce.png"
 
 export {
   logo,
@@ -59,4 +62,7 @@ export {
   carrent,
   jobit,
   tripguide,
+  obilet,
+  trinksigortam,
+  cyce,
 };
