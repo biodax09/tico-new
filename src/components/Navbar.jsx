@@ -61,6 +61,8 @@ const Navbar = () => {
               <a href={`#${nav.id}`}>{nav.title}</a>
             </li>
           ))}
+          
+          <a class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full" target="_blank" href="https://panel.ticofab.com/">Müşteri Girişi</a>
         </ul>
 
         <div className='sm:hidden flex flex-1 justify-end items-center'>
@@ -89,8 +91,11 @@ const Navbar = () => {
                   }}
                 >
                   <a href={`#${nav.id}`}>{nav.title}</a>
+                  
                 </li>
+                
               ))}
+          <a class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full" target="_blank" href="https://panel.ticofab.com/">Müşteri Girişi</a>
             </ul>
           </div>
         </div>
