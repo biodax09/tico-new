@@ -17,7 +17,7 @@ const Hero = () => {
 
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
-            <span className='text-[#915EFF]'>Geleceğin</span> Gücünü Hisset!
+            <span className='text-[#915EFF]'>Dijitalde</span> Roketleyin!
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
           Çağın gereğine uymak noktasında Ticofab ile  <br className='sm:block hidden' />
@@ -26,7 +26,7 @@ const Hero = () => {
         </div>
       </div>
 
-      <ComputersCanvas />
+      <TicofabCanvas />
 
       <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
         <a href='#about'>

@@ -22,7 +22,7 @@ const Ticofab = ({ isMobile }) => {
       <primitive
         object={tico.scene}
         scale={isMobile ? 0.7 : 1.65}
-        position={isMobile ? [0, -1, -1.2] : [0, -3.25, -1.5]}
+        position={isMobile ? [0, -1.5, -0.2] : [0, -3.25, -1.5]}
         rotation={[-0.01, -0.5, -0.1]}
       />
     </mesh>
@@ -58,7 +58,7 @@ const TicofabCanvas = () => {
       frameloop='demand'
       shadows
       dpr={[1, 2]}
-      camera={{ position: [20, 5, 5], fov: 25 }}
+      camera={{ position: [18, 5, 5], fov: 25 }}
       gl={{ preserveDrawingBuffer: true }}
     >
       <Suspense fallback={<CanvasLoader />}>
