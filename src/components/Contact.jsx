@@ -88,7 +88,7 @@ const Contact = () => {
               name='name'
               value={form.name}
               onChange={handleChange}
-              placeholder="Kendi Adınızı veya Şirketinizi Yazabilirsiniz."
+              placeholder="Adınız ve soyadınız nedir?"
               className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium aria-required=“true”'
               aria-required
             />
@@ -100,7 +100,7 @@ const Contact = () => {
               name='email'
               value={form.email}
               onChange={handleChange}
-              placeholder="Size Her Zaman Ulaşacağımız Posta Adresiniz."
+              placeholder="E-Posta adresinizi yazın."
               className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium aria-required=“true”'
               aria-required
             />
@@ -112,7 +112,7 @@ const Contact = () => {
               name='message'
               value={form.message}
               onChange={handleChange}
-              placeholder='Bizimle Hangi Konu Hakkında Görüşmek İstediğinizi Açıklayın.'
+              placeholder='Mesajınızı yazın.'
               className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium aria-required=“true”'
               aria-required
             />
