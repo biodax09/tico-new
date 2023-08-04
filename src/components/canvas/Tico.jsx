@@ -11,8 +11,8 @@ const Ticofab = ({ isMobile }) => {
     <mesh>
       <hemisphereLight intensity={0.15} groundColor='black' />
       <spotLight
-        position={[-20, 50, 10]}
-        angle={.12}
+        position={[-30, 50, 10]}
+        angle={0.12}
         penumbra={1}
         intensity={1}
         castShadow
@@ -21,8 +21,8 @@ const Ticofab = ({ isMobile }) => {
       <pointLight intensity={1} />
       <primitive
         object={tico.scene}
-        scale={isMobile ? 0.7 : 1.65}
-        position={isMobile ? [0, -1.5, -0.2] : [0, -3.25, -1.5]}
+        scale={isMobile ? 1.2 : 1.65}
+        position={isMobile ? [0, -2.9, -0.2] : [0, -3.25, -1.5]}
         rotation={[-0.01, -0.5, -0.1]}
       />
     </mesh>

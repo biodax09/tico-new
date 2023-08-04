@@ -45,19 +45,19 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Yazılım",
+    title: "Web Tasarımı",
     icon: web,
   },
   {
-    title: "Web Tasarım",
+    title: "Backend Servisleri",
     icon: mobile,
   },
   {
-    title: "Mobil Yazılım",
+    title: "Mobil Uygulama",
     icon: backend,
   },
   {
-    title: "E-Ticaret",
+    title: "Yapay Zeka Teknolojisi",
     icon: creator,
   },
 ];
@@ -110,10 +110,6 @@ const technologies = [
   {
     name: "figma",
     icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
   },
 ];
 
@@ -175,26 +171,26 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "Taisa klima olarak hem kurumsal internet sitemizi hem de e-ticaret sitemizi yaptırdık üstelik çok hızlı bir hizmet aldık.",
-    name: "Taner YİĞİTBAŞ",
-    designation: "CEO",
-    company: "Taisa Klima",
+      "Siro ailesi olarak hem kurumsal olarak hem de sahada Ticofab ile bir çok çalışmaya imza attık. Hızlı çözümleri ve tecrübeleri konusunda üzerine tanımadım. Emeklerinize teşekkür ederiz",
+    name: "Zafer KARA",
+    designation: "General Manager",
+    company: "Siro Energy",
     image: "https://randomuser.me/api/portraits/women/4.jpg",
   },
   {
     testimonial:
-      "Sorduğum tüm soruların çözümlerini gösterip işletmeyi daha zirveye taşımayı başaran ekibe sonsuz teşekkür ederim.",
-    name: "Can HERDEM",
-    designation: "CFO",
-    company: "LastingUp",
+      "Yürüttüğümüz projelerin hemen her alanında beraber hareket etmekten gurur duyduğumuz Ticofab ailesine, tecrübe ve emekleri için minnettarız. İyi çalışmalar",
+    name: "Ferhat BORAK",
+    designation: "CTO",
+    company: "CYCE Coin",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
   {
     testimonial:
-      "İnşaat firmamızın web sitesini yaptırdık. Gayet kullanışlı bir site oldu. Çok teşekkür ederiz.",
-    name: "Samet AKBAL",
-    designation: "CMO",
-    company: "Enterprises MGO",
+      "Web Tabanlı akademik uygulamamızın hem Backend hem de Frontend bölümünde bir çok noktaya müdahil olan ve çözümler üreten Ticofab'a sonsuz teşekkür ederim. Emeğinize sağlık",
+    name: "Ahmet SOYER",
+    designation: "Project Manager",
+    company: "KuveytTürk",
     image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
 ];
