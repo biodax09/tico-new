@@ -21,7 +21,10 @@
     "react-simple-typewriter": "^5.0.1",
     "react-tilt": "^0.1.4",
     "react-vertical-timeline-component": "^3.6.0",
-    "three": "^0.149.0"
+    "sharp": "^0.32.4",
+    "svgo": "^3.0.2",
+    "three": "^0.149.0",
+    "vite-plugin-image-optimizer": "^1.1.6"
   },
   "devDependencies": {
     "@types/react": "^18.0.27",
@@ -30,6 +33,8 @@
     "autoprefixer": "^10.4.13",
     "postcss": "^8.4.21",
     "tailwindcss": "^3.2.6",
-    "vite": "^4.1.0"
+    "vite": "^4.1.0",
+    "vite-imagetools": "^5.0.7",
+    "vite-plugin-webp-generator": "^0.0.5"
   }
 }

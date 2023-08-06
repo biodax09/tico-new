@@ -1,6 +1,7 @@
 import { Cursor, useTypewriter } from "react-simple-typewriter";
 import { styles } from "../styles";
 import Marquee from 'react-fast-marquee';
+import { ViteImageOptimizer } from 'vite-plugin-image-optimizer';
 import img1 from '../assets/logolar/1.png';
 import img2 from '../assets/logolar/2.png';
 import img3 from '../assets/logolar/3.png';
@@ -18,7 +19,6 @@ const Hero = () => {
       "Kurumsal Web Yazılımları",
       "E-Ticaret Yazılımları",
       "Yapay Zeka Çalışmaları",
-      "OCPP Protokol Yazılımları",
       "Kripto Teknoloji Yazılımları",
     ],
     loop: true,
@@ -60,7 +60,7 @@ const Hero = () => {
               <div className="bg-white h-3 w-1 rounded-full mt-[10px] animate-bounce lg:scale-100 scale-75"></div>
             </div>
 
-            <p >AŞAĞI KAYDIR</p>
+            <p>AŞAĞI KAYDIR</p>
             
           </a>
           
