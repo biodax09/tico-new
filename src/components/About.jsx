@@ -1,7 +1,6 @@
 import React from "react";
 import Tilt from "react-tilt";
 import { motion } from "framer-motion";
-
 import { styles } from "../styles";
 import { services } from "../constants";
 import { SectionWrapper } from "../hoc";
@@ -23,6 +22,7 @@ const ServiceCard = ({ index, title, icon }) => (
       >
         <img
           src={icon}
+          loading='lazy'
           alt='web-development'
           className='w-16 h-16 object-contain'
         />

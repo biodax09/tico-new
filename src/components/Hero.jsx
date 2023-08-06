@@ -79,28 +79,28 @@ const Hero = () => {
       <div className="marqbg">
         <Marquee direction="left" speed={100} delay={0}>
           <div className="image_wrapper">
-            <img src={img1} alt="" />
+            <img src={img1} loading='lazy' alt="" />
           </div>
           <div className="image_wrapper">
-            <img src={img2} alt="" />
+            <img src={img2} loading='lazy' alt="" />
           </div>
           <div className="image_wrapper">
-            <img src={img3} alt="" />
+            <img src={img3} loading='lazy' alt="" />
           </div>
           <div className="image_wrapper">
-            <img src={img4} alt="" />
+            <img src={img4} loading='lazy' alt="" />
           </div>
           <div className="image_wrapper">
-            <img src={img5} alt="" />
+            <img src={img5} loading='lazy' alt="" />
           </div>
           <div className="image_wrapper">
-            <img src={img6} alt="" />
+            <img src={img6} loading='lazy' alt="" />
           </div>
           <div className="image_wrapper">
-            <img src={img7} alt="" />
+            <img src={img7} loading='lazy' alt="" />
           </div>
           <div className="image_wrapper">
-            <img src={img8} alt="" />
+            <img src={img8} loading='lazy' alt="" />
           </div>
         </Marquee>
       </div>

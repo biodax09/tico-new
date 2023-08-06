@@ -1,7 +1,6 @@
 import React from "react";
 import Tilt from "react-tilt";
 import { motion } from "framer-motion";
-
 import { styles } from "../styles";
 import { github } from "../assets";
 import { SectionWrapper } from "../hoc";
@@ -27,6 +26,7 @@ const ProjectCard = ({
       <div className="relative w-full h-[230px]">
         <img
           src={image}
+          loading='lazy'
           alt="project_image"
           className="w-full h-full object-cover rounded-2xl select-none"
         />

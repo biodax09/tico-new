@@ -16,7 +16,7 @@ const TechCard = ({ index, icon }) => {
         <div
           options={{ max: 45, scale: 1, speed: 450 }}
           className="bg-tertiary rounded-full py-5 flex justify-evenly items-center flex-col">
-          <img src={icon} className="w-16 h-16 object-contain" />
+          <img loading='lazy' src={icon} className="w-16 h-16 object-contain" />
         </div>
       </div>
     </Tilt>
